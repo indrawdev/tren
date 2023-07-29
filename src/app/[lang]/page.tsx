@@ -9,7 +9,7 @@ export default async function IndexPage({
   params: { lang },
 }: {
   params: { lang: Locale }
-  }) {
+}) {
 
   const dictionary = await getDictionary(lang)
 
