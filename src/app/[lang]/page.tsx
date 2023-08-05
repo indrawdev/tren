@@ -13,13 +13,12 @@ export default async function IndexPage({
   params: { lang: Locale }
 }) {
 
+  useEffect(() => {
+    console.log("x")
+  }, [])
+
   const dictionary = await getDictionary(lang)
 
-  const { result } =  await writeUserData("idprama@gmail.com")
-
-  useEffect(() => {
-    result
-  }, [])
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
@@ -28,7 +27,7 @@ export default async function IndexPage({
         <p>Current locale: {lang}</p>
         <p>
           This text is rendered on the server:{' '}
-          {dictionary['server-component'].welcome}
+          {dictionary['server'].welcome}
         </p>
         <Counter dictionary={dictionary.counter} />
       </div>

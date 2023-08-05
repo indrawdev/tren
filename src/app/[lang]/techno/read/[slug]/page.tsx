@@ -11,11 +11,3 @@ export default function TechnoPageDetail({
     </main>
   )
 }
-
-
-export async function generateMetadata({ params }: { params: any }) {
-  return {
-    title: '...',
-    description: '...',
-  }
-}

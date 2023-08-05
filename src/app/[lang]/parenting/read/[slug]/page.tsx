@@ -11,11 +11,3 @@ export default function ParentingPageDetail({
     </main>
   )
 }
-
-
-export async function generateMetadata({ params }: { params: any }) {
-  return {
-    title: '...',
-    description: '...',
-  }
-}

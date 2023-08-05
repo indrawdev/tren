@@ -1,5 +1,5 @@
 {
-  "server-component": {
+  "server": {
     "welcome": "Welcome"
   },
   "counter": {
