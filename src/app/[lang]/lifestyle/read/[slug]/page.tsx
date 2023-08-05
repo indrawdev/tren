@@ -1,7 +1,7 @@
 'use client'
 import { Locale } from '@/i18n-config'
 
-export default function DetailCrypto({
+export default function LifeStylePageDetail({
   params: { lang, slug },
 }: {
   params: { lang: Locale, slug: string }

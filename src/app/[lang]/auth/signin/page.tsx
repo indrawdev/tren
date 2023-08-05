@@ -5,7 +5,6 @@ import { Locale } from '@/i18n-config'
 import { useRouter } from "next/navigation"
 import { useState } from "react"
 
-
 export default function SignIn({
   params: { lang },
 }: {
