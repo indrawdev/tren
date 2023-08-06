@@ -5,5 +5,17 @@
   "counter": {
     "increment": "Increment",
     "decrement": "Decrement"
+  },
+  "menu": {
+    "home": "Home",
+    "beauty": "Beauty",
+    "crypto": "Crypto",
+    "food": "Food",
+    "health": "Health",
+    "hot": "Hot",
+    "lifestyle": "Lifestyle",
+    "parenting": "Parenting",
+    "relationship": "Relationship",
+    "techno": "Techno"
   }
 }
